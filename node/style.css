@@ -1,0 +1,15 @@
+
+header{
+  height:200px;
+  width: inherit;
+  background-color: #333333;
+}
+header div{
+  width: 50%;
+  height: inherit;
+}
+
+header div img{
+  width: inherit;
+  height: auto;
+}
