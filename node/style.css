@@ -1,15 +1,25 @@
 
 header{
-  height:200px;
-  width: inherit;
-  background-color: #333333;
+  height:100px;
+  width: 1350px;
+  background-color: black;
 }
 header div{
-  width: 50%;
+  width: 100%;
   height: inherit;
+  margin:auto;
 }
 
 header div img{
   width: inherit;
-  height: auto;
+  height: inherit;
+}
+header nav{
+    width: 70%;
+    height: 24px;
+    margin: auto;
+    background-color: black;
+}
+header nav a{
+    font-size: 24px;
 }
