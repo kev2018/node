@@ -22,4 +22,16 @@ header nav{
 }
 header nav a{
     font-size: 24px;
+    color:#FFFF99;
+}
+#city{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+#blackness{
+    width: 100%;
+    height: 24px;
+    margin:auto;
+    background-color: black;
 }
