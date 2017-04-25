@@ -1,6 +1,6 @@
 
 header{
-  height:150px;
+  height:125px;
   width: 1530px;
   background-color: black;
 }
@@ -8,18 +8,18 @@ header div{
   width: 30%;
   height: auto;
   margin: 0 auto;
+  text-align: center;
 }
 
 header div img{
   width: inherit;
   height: inherit;
-
 }
 header nav{
-    width: 100%;
-    height: 20px;
-    margin: 0 auto;
+    width: inherit;
+    height: 24px;
     background-color: black;
+    text-align: center;
 }
 header nav a{
     font-size: 24px;
@@ -29,10 +29,82 @@ header nav a{
     width: 100%;
     height: 300px;
     margin: auto;
+    position: relative;
+    z-index: auto;
+    top: 0;
+    left: 0;
 }
 #floaty{
-  width: 750px;
-  height: 150px;
+  width: 864px;
+  height: 240px;
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 21%;
+}
+#wtfywontthiswork{
+  width: 50.5%;
+  height: auto;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 1.5;
+}
+p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+section{
+  width: 600px;
+  height: 250px;
   margin: auto;
-  padding-top: 40px;
+}
+#ayyitworks{
+font-size: 30px;
+}
+.pushythings{
+height:90px;
+width:250px;
+background-color: green;
+font-size: ;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+#floatything{
+  float: right;
+}
+section div a{
+  color: white;
+  font-size: 30px;
+  padding-left:40px;
+}
+.un-underline{
+  text-decoration:none;
+}
+section nav a{
+  color: #51744e;
+  font-size: 15px;
+  text-decoration:none;
+}
+section p a{
+  text-decoration: none;
+  color: #51744e;
+  font-size: 20px;
+}
+footer{
+  width:inherit;
+  height: 210px;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+footer p{
+  color: white;
+  text-align: left;
+  padding-left: 250px;
+  padding-top: 10px;
+  font-size: 12px;
+}
+footer p a{
+  color: #777;
+  text-decoration: none;
 }
